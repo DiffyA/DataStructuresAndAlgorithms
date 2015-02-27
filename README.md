@@ -6,7 +6,8 @@ Programming language: Java
 Exercises done in the Data Structures and Algorithms class. This README will contain a brief explanation of every exercise.
 
 
-Exercise 4: SList implementation
+Exercise 4: SList implementation.
+
   Here, we create the single-linked list data structure, composed of the following:
     
     Interfaces
@@ -27,6 +28,7 @@ Exercise 4: SList implementation
 
 
 Exercise 7: DList implementation
+  
   Here, we create the double-linked list data structure, composed of the following:
   
     Interfaces
