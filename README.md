@@ -24,3 +24,18 @@ Exercise 4: SList implementation
   Circular lists do not contain a node that points to null. This last element will simply point to the first element.
   
   Tail lists store the first node and the last node of the list.
+
+
+Exercise 7: DList implementation
+  Here, we create the double-linked list data structure, composed of the following:
+  
+    Interfaces
+      IList.java
+      
+    Classes
+      DNode.java
+      DList.java
+      
+  Double-linked lists work the same way as single-linked lists, the only differences are that each node now has two pointers, a PREVIOUS pointer and a NEXT pointer, and it also contains two special nodes called sentinel nodes.
+  This list contains two sentinel nodes, the HEADER node and the TRAILER node. These nodes do not contain any elements, their only content is null. The HEADER node sits in position -1 of the list (at least for this implementation) and is the first node of the list. Its PREVIOUS node points to the TRAILER and its NEXT node points to the first element-containing node of the list. Likewise, the TRAILER node is the last node of the list; it's PREVIOUS node points to the last element-containing node and it's NEXT node points to the HEADER.
+  The only purpose of these sentinel nodes is to have a sense of direction regarding the first and last elements of the list.
