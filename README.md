@@ -6,6 +6,7 @@ Programming language: Java
 Exercises done in the Data Structures and Algorithms class. This README will contain a brief explanation of every exercise.
 
 
+
 Exercise 4: SList implementation.
 
   Here, we create the single-linked list data structure, composed of the following:
@@ -27,6 +28,7 @@ Exercise 4: SList implementation.
   Tail lists store the first node and the last node of the list.
 
 
+
 Exercise 7: DList implementation
   
   Here, we create the double-linked list data structure, composed of the following:
@@ -37,7 +39,17 @@ Exercise 7: DList implementation
     Classes
       DNode.java
       DList.java
+      Palindrome.java (Exercise 8)
       
   Double-linked lists work the same way as single-linked lists, the only differences are that each node now has two pointers, a PREVIOUS pointer and a NEXT pointer, and it also contains two special nodes called sentinel nodes.
   This list contains two sentinel nodes, the HEADER node and the TRAILER node. These nodes do not contain any elements, their only content is null. The HEADER node sits in position -1 of the list (at least for this implementation) and is the first node of the list. Its PREVIOUS node points to the TRAILER and its NEXT node points to the first element-containing node of the list. Likewise, the TRAILER node is the last node of the list; it's PREVIOUS node points to the last element-containing node and it's NEXT node points to the HEADER.
   The only purpose of these sentinel nodes is to have a sense of direction regarding the first and last elements of the list.
+
+
+
+Exercise 8: Palindrome
+
+  This file is contained in the exercise 7 folder, given that it needs to use the DList.java class in order to function.
+  
+  This class checks if the specified word is a palindrome, i.e.: if it is read the same backward as it is forward. For example: racecar.
+  
