@@ -20,12 +20,19 @@ Exercise 4: SList implementation.
       SListCircular.java
       SListTail.java
       Test.java
+      SListInteger.java (Exercise 6)
       
   Single-linked lists are managed using nodes. These type of lists have a fixed firstNode, which will be the starting point for every other node needed. Every element in the list is retrieved, created or deleted using nodes. Nodes are objects which contain a generic type element, and have a nextNode attribute which points to the following node. This pointer is what allows us to modify the list. A node that points to null is the last element in the list (not the case for circular lists), and a node that is not pointed to by any other node is deleted from the list, as there is no way to access said node. 
   
   Circular lists do not contain a node that points to null. This last element will simply point to the first element.
   
   Tail lists store the first node and the last node of the list.
+
+
+
+Exercise 6: SListInteger 
+
+  Implementation of the SListInteger class that extendes the SList class. In it are included methods used to calculate the sum of all the numbers in the list and another which will return the even numbers of the list.
 
 
 
