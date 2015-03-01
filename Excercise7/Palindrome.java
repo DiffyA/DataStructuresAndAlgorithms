@@ -24,10 +24,10 @@ public class Palindrome extends DList<Character> {
 		DNode<Character> travelerNodeB = wordList.trailer.previousNode;
 		while (index < wordList.getSize()) {
 			if (travelerNodeF.getElement() != ' '){
-			forward = forward + travelerNodeF.getElement();
+				forward = forward + travelerNodeF.getElement();
 			}
 			if (travelerNodeB.getElement() != ' '){
-			backward = backward + travelerNodeB.getElement();
+				backward = backward + travelerNodeB.getElement();
 			}
 			travelerNodeF = travelerNodeF.getNextNode();
 			travelerNodeB = travelerNodeB.getPreviousNode();
@@ -40,3 +40,4 @@ public class Palindrome extends DList<Character> {
 		System.out.println("The word(s) is a palindrome.");
 		return true;
 	}
+}
