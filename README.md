@@ -32,6 +32,8 @@ Exercise 4: SList implementation.
 
 Exercise 6: SListInteger 
 
+This file is contained in the Exercise 4 folder, given that it needs the SList class to function.
+
   Implementation of the SListInteger class that extendes the SList class. In it are included methods used to calculate the sum of all the numbers in the list and another which will return the even numbers of the list.
 
 
@@ -56,7 +58,7 @@ Exercise 7: DList implementation
 
 Exercise 8: Palindrome
 
-  This file is contained in the exercise 7 folder, given that it needs to use the DList.java class in order to function.
+  This file is contained in the Exercise 7 folder, given that it needs to use the DList.java class in order to function.
   
   This class checks if the specified word is a palindrome, i.e.: if it is read the same backward as it is forward. For example: racecar.
   
