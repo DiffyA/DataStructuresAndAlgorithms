@@ -62,3 +62,9 @@ Exercise 8: Palindrome
   
   This class checks if the specified word is a palindrome, i.e.: if it is read the same backward as it is forward. For example: racecar.
   
+
+
+Exercise 10: Mixing	ordered	queues
+
+  We are supposed to write a java program that is able to receive as parameters two single queue objects and return only one single queue, which must be ordered. To add a bit more of complexity to the problem, we assume that these two queues received as parameters are not ordered. This can probably be vastly optimized, without having to create so many auxiliary variables in the mixer method.
+  
