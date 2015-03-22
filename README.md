@@ -64,7 +64,16 @@ Exercise 8: Palindrome
   
 
 
+Exercise 9: Operation Balancer using Stacks
+
+  Here, we create the class Expression and are supposed to be able to tell whether this mathematical operation is properly written in terms of grouping symbols. What this means is that every opening parenthesis, bracket, or curly bracket must have its closing counterpart in the correct order. For instance: ({1+3)} is not correct. However, ({1+3}) is. 
+
+
 Exercise 10: Mixing	ordered	queues
 
   We are supposed to write a java program that is able to receive as parameters two single queue objects and return only one single queue, which must be ordered. To add a bit more of complexity to the problem, we assume that these two queues received as parameters are not ordered. This can probably be vastly optimized, without having to create so many auxiliary variables in the mixer method.
   
+
+Exercise 11: Company ArrayList
+
+  We are supposed to create two classes, the Employee class and the Company class. Using methods belonging to the ArrayList class, we are to create some new methods for the Company class.
